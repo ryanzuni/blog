@@ -1,0 +1,74 @@
+/* style.css */
+
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.content-wrapper {
+    flex: 5;
+}
+
+header {
+    background-color: #343a40;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.header-content {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.brand h1 {
+    margin-right: auto; /* Menaruh nama web di sebelah kiri */
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-link {
+    color: #ffffff;
+    margin-right: 5px; /* Ubah angka ini sesuai preferensi Anda */
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #343a40;
+    color: #ffffff;
+    margin-top: auto;
+}
+
+@media (max-width: 800px) {
+    header h1 {
+        font-size: 24px;
+    }
+}
+
+section {
+    margin: 120px; /* Atur margin kiri dan kanan sesuai preferensi Anda */
+}
+
+@media (max-width: 800px) {
+    section {
+        margin: 10px; /* Sesuaikan margin untuk layar berukuran kecil */
+    }
+}
